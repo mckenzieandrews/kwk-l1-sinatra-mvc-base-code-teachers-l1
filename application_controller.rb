@@ -4,7 +4,7 @@ Bundler.require
 class MyApp < Sinatra::Base
 
   get '/' do
-    @name="Kyla"
+    @name="Kyla & McKenzie <3 KWK4Ever"
     erb :index
   end
   
