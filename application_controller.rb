@@ -8,14 +8,6 @@ class MyApp < Sinatra::Base
     erb :index
   end
   
-  get '/tacos' do
-    erb :tacos 
-  end
-  
-  get '/cat' do
-    erb :cat
-  end 
 
-  
 
 end
